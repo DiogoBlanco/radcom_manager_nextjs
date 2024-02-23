@@ -1,4 +1,3 @@
-import "bootstrap/dist/css/bootstrap.css";
 import "./globals.css";
 
 export const viewport = {
@@ -11,7 +10,7 @@ export const viewport = {
 export default function RootLayout({ children }) {
   return (
     <html lang="pt-br">
-      <body className="container">
+      <body>
         <main>{children}</main>
       </body>
     </html>
