@@ -7,8 +7,13 @@
 
 body {
     background: #072e4c;
+    width: 100%;
+    
 }
 
 main {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
